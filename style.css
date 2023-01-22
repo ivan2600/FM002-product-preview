@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+main {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+img {
+  max-width: 375px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+div {
+  padding: 25px;
+}
+
+p {
+  font-family: 'Outfit', sans-serif;
+}
+
+h1 {
+  font-family: 'Fraunces', serif;
+}
+
+button {
+  background-color: cadetblue;
+}
