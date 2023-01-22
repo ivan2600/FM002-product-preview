@@ -3,13 +3,20 @@
   margin: 0;
 }
 
+body {
+  height: 100%;
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 main {
   width: 375px;
   height: 100%;
   display: flex;
   flex-direction: column;
   padding: 15px;
-  background-color: hsl(30, 38%, 92%);
   padding-bottom: 25px;
 }
 
@@ -17,6 +24,10 @@ img {
   margin-top: 15px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+}
+
+#img-desktop {
+  display: none;
 }
 
 div {
@@ -78,6 +89,10 @@ button {
   margin-bottom: 23px;
 }
 
+button:hover {
+  background-color: hsl(158, 37%, 27%);
+}
+
 button p {
   color: hsl(0, 0%, 100%);
   font-size: 14px;
@@ -87,4 +102,51 @@ button p {
 button img {
   margin: auto 10px;
   border-radius: 0%;
+}
+
+@media (min-width: 640px) {
+  body {
+    height: 100%;
+  }
+  main {
+    width: 633px;
+    flex-direction: row;
+  }
+  img {
+    max-width: 300px;
+    margin-top: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    object-fit: cover;
+  }
+  #img-desktop {
+    display: block;
+  }
+  #img-mobile {
+    display: none;
+  }
+  div {
+    padding: 30px 30px 0px 33px;
+  }
+  #info-product {
+    width: 300px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  button {
+    width: 235px;
+    height: 48px;
+    margin-bottom: 23px;
+  }
+  h1 {
+    padding: 15px 0px 28px 0px;
+  }
+  #prices {
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0px 34px 0px;
+    align-items: center;
+  }
 }
