@@ -8,26 +8,82 @@ main {
   display: flex;
   flex-direction: column;
   padding: 15px;
+  background-color: hsl(30, 38%, 92%);
+  padding-bottom: 25px;
 }
 
 img {
-  max-width: 375px;
+  margin-top: 15px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
 div {
-  padding: 25px;
+  padding: 20px 26px 0px 27px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+#info-product {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 p {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  line-height: 24px;
+}
+
+#kind-of-product {
+  font-size: 13px;
 }
 
 h1 {
   font-family: 'Fraunces', serif;
+  line-height: 30px;
+  padding: 10px 0px 10px 0px;
+}
+
+#prices {
+  display: flex;
+  flex-direction: row;
+  padding: 26px 0px;
+  align-items: center;
+}
+
+.price-green {
+  font-family: 'Fraunces', serif;
+  font-size: 32px;
+  color: hsl(158, 36%, 37%);
+  margin-right: 20px;
+}
+
+#original-price {
+  text-decoration: line-through;
+  font-size: 13px;
 }
 
 button {
-  background-color: cadetblue;
+  width: 295px;
+  height: 48px;
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 23px;
+}
+
+button p {
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+button img {
+  margin: auto 10px;
+  border-radius: 0%;
 }
