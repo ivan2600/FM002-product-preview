@@ -16,3 +16,7 @@ El objetivo es hacer una práctica y reforzar la teoria.
 
 - GitHub - [@ivan2600] (https://github.com/ivan2600)
 - Mentor de frontend - [@ivan2600] (https://www.frontendmentor.io/profile/ivan2600)
+
+## Link
+
+https://ivan2600.github.io/FM002-product-preview/
